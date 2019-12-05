@@ -1,18 +1,18 @@
-const Sequelize = requere('sequelize');
+const Sequelize = require('sequelize');
 
-// Conexion a la BD con sequelize
-const sequelize = new Sequelize('proyecto', 'root', 'Acbtis51-', {
-    host: 'al17440.systems',
+//Conexión a la BD con sequelize
+const sequelize = new Sequelize('proyecto', 'root', 'Equipo05.051-', {
+    host: 'al17398.tech',
     dialect: 'mysql'
 });
 
 sequelize
-    .authenticare()
+    .authenticate()
     .then(() => {
-        console.log('Connection has been established sucessfully.');
+        console.log('Connection has been established successfully.');
     })
     .catch(err => {
-        console.error('Umable to connect to the database:',err);
+        console.error('Unable to connect to the database:', err);
     });
 
 module.exports = sequelize;
