@@ -1,7 +1,9 @@
 require('./config/config');
 
 const express = require('express');
+const app = express;
 const mysql = require('mysql2'); 
+const jwt = require('jsonwebtoken'); 
 
 const app = express();
 
