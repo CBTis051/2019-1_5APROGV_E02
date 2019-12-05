@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CBTis051/2019-1_5APROGV_E02/issues"
   },
-  "homepage": "https://github.com/CBTis051/2019-1_5APROGV_E02#readme"
+  "homepage": "https://github.com/CBTis051/2019-1_5APROGV_E02#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
