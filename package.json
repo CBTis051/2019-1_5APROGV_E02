@@ -2,7 +2,7 @@
   "name": "2019-1_5aprogv_restserver_eq02",
   "version": "1.0.0",
   "description": "RestServer Equipo 02 del 5APROG 2019-1",
-  "main": "app_al17305r.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
