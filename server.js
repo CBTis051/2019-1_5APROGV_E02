@@ -10,6 +10,17 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false}))
 // parse application/json
 app.use(bodyParser.json())
+
+/**
+ * Home del server --> /
+ */
+app.get('/', (req, res) => {
+
+    let objeto = {
+        mensaje: "Bienvenidos al REST server - 5APROGV Equipo02"
+    };
+    res.send(objeto);
+});
 // Configuracion global de rutas
 app.use(require('./routes/index'));
 
